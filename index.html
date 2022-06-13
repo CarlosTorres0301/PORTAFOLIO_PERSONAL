@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+</head>
+<body>
+    <div class="Contenedor1">
+        <nav class="nav1">
+            <div> Carlos Torres Social Networks</div>
+            <div>
+                <a href="https://www.facebook.com/profile.php?id=100042695163159/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077041.png"></a>
+                <a href="https://www.instagram.com/cgtz_03.pdf/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png"></a>
+                
+            </div>
+        </nav>
+        <nav class="nav2">
+            <div>
+            <img src="Imagenes/fondoOP.jpg" class="img1"> 
+            </div>
+            <div class="row">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+        <div class="img" id="home">
+            <img src="Imagenes/fondo.jpg" class="imag">
+            <img src="Imagenes/img1.jpg" class="pers">
+        </div>
+        <div class="text">
+            <h2>¡Bienvenidos a todos!</h2>
+            <h1>Mi nombre es CarlosTorres</h1>
+            <h3 class="porta">Este es mi Portafolio Personal y pueden visitarlo para poder saber un poco sobre mí.</h3>
+        </div>
+    </div>
+    <h1 class="sob">Sobre mí</h1>
+    <div class="cont2" id="about">
+        <div class="dis">
+            <img src="Imagenes/img2.jpg" class="imgp"><br>
+            <p class="parr">YO soy una persona divertida y muy alegre, me gusta pasar un buen rato con todos mis amigos ya que siento muy bien su compañía.</p>
+        </div>
+        <div class="dis">
+            <img src="Imagenes/img3.jpg" class="imgp"><br>
+            <p class="parr">Lo que a mi me gusta hacer en mis tiempos libres es ver fútbol y también me gusta jugarlo ya que todas las semanas salimos a jugar para pasar buenos momentos.</p>
+        </div>
+        <div class="dis">
+            <img src="Imagenes/img4.jpg" class="imgp"><br>
+            <p class="parr">Me gusta ver series y escuchar música y también me gusta pasar tiempo con mi familia y desde pequeño he sido una persona alegre y perseverante.</p>
+        </div>
+    </div>
+    <div class="cont3" id="habilidades">
+       <h1 class="habi">Habilidades</h1>
+       <p>En estos años que he vivido estas son algunas de las habilidades que tengo:
+        <ul>
+            <li>Estudié en una escuela bilingüe y gracias a eso aprendí a hablar inglés.</li>
+            <li>Aprendí a usar excel en mi clase de Laboratorio.</li>
+            <li>Por el momento nos están enseñando a utilizar el HTML y el CSS en el colegio y se necesita práctica para poder entenderla y poder utilizarlas de la forma correcta.</li>
+            <li>Una de mis habilidades también es jugar fútbol y es algo que me gusta y al mismo tiempo se hace ejercicio mientras se pasa un buen rato.</li>
+        </ul>
+       </p> 
+    </div>
+
+    <div class="cont4" id="contacto">
+        <section class="contact">
+                <h2 class="title">Contacto</h2>
+                <div class="contenedor">
+                    <div class="izquierda">
+                        <div class="titu">Información</div>
+                        <p class="p">Si necesita un poco más de información sobre mí o si tienen alguna duda les dejaré mis redes sociales para que puedan escribirme y muchas gracias por su tiempo.</p>
+                        <div class="icons">
+                            <div class="row">
+                                <i class="fas fa-user"></i>
+                                <div class="info">
+                                    <div class="titu">Nombre</div>
+                                    <div class="subti">Carlos Torres</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="info">
+                                    <div class="titu">Dirección</div>
+                                    <div class="subti">Comayagua, Honduras</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-envelope"></i>
+                                <div class="info">
+                                    <div class="titu">Email</div>
+                                    <div class="subti">carlosgerardotz2003@gmail.com</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fab fa-whatsapp"></i>
+                                <div class="info">
+                                    <div class="titu">Teléfono</div>
+                                    <div class="subti"><a href="https://api.whatsapp.com/send?phone=50496332459&text=Llamame." target="_blank">(+504) 9633-2459</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="derecha">
+                        <div class="titu">Mensaje</div>
+                            <form>
+                                <div class="formu">
+                                    <div class="name">
+                                        <input type="text" placeholder="Nombre" id="nombre" required>
+                                    </div>
+                                    <div class="email">
+                                        <input type="email" id="email" placeholder="Email" required>
+                                    </div>
+                                </div>
+                                <div class="formup2">
+                                    <input type="text" id="asunto" placeholder="Asunto" required>
+                                </div>
+                                <div class="textarea">
+                                    <textarea cols="30" rows="10" id="mensaje" placeholder="Mensaje.." required></textarea>
+                                </div>
+                                <div class="button">
+                                    <button type="submit">Enviar Mensaje</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+</body>
+</html>
